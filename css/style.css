@@ -330,7 +330,7 @@ footer .container,
 
 .view.product-catalogue .views-field-nothing .product-item {
   position: relative;
-  border: 4px solid #f7941d;
+  border: 3px solid #f7941d;
   border-radius: 13px;
   background-color: #f7941d;
 }
@@ -356,6 +356,8 @@ footer .container,
   color: #ffffff;
   font-weight: bold;
   display: block;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
 }
 
 .view.product-catalogue .views-field-nothing .product-item .product-title a:hover {
