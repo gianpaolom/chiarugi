@@ -3,13 +3,12 @@
  * remove this comment and start adding your styles to this file.
  */
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic);
-@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,400italic);
 
 body {
   background: #313131;
   color: #333333;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* -- Bootstrap Override -- */
@@ -76,7 +75,7 @@ a:focus {
     background: rgba(255,255,255,0.4);
     color: #000000;
     text-align: center;
-    font-family: 'Droid Serif';
+    font-family: 'Roboto';
     text-transform: uppercase;
 }
 
@@ -235,7 +234,7 @@ footer .container,
 }
 
 .block.catalog-menu ul li a.facetapi-inactive {
-  font-family: "Droid Serif";
+  font-family: "Roboto";
   color: #ffffff;
   background: #bbbbbb;
   display: block;
@@ -250,7 +249,7 @@ footer .container,
 }
 
 .block.catalog-menu ul li.active {
-  font-family: "Droid Serif";
+  font-family: "Roboto";
   color: #ffffff;
   background: #f7941d;
   text-align: center;
@@ -364,7 +363,7 @@ footer .container,
 }
 
 .view.view-news .view-content .views-field-title h2 {
-  font-family: "Droid Serif", Serif;
+  font-family: "Roboto", Serif;
   margin-top: 0;
   color: #f7941d;
 }
@@ -375,7 +374,7 @@ footer .container,
 }
 
 .view.view-news .view-content .views-field-created {
-  font-family: "Droid Serif", Serif;
+  font-family: "Roboto", Serif;
 }
 
 .view.view-news .attachment .view-content .views-field-title h2 {
@@ -534,7 +533,7 @@ footer .container,
   ul.menu.navbar-nav li a {
     background: rgba(255,255,255, 0.8);
     color: #000000;
-    font-family: 'Droid Serif';
+    font-family: 'Roboto';
     text-transform: uppercase;
     text-align: center;
     padding-bottom: 10px;
