@@ -330,11 +330,18 @@ footer .container,
 
 .view.product-catalogue .views-field-nothing .product-item {
   position: relative;
-  border: 1px solid #f7941d;
+  border: 4px solid #f7941d;
+  border-radius: 13px;
+  background-color: #f7941d;
 }
 
 .view.product-catalogue .views-field-nothing .product-item .product-image {
 
+}
+
+.view.product-catalogue .views-field-nothing .product-item .product-image img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .view.product-catalogue .views-field-nothing .product-item .product-title {
