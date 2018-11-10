@@ -66,13 +66,15 @@ a:focus {
 }
 
 #navbar .container {
-  background: url('../images/header-bg.jpg') no-repeat center top;
+  /* background: url('../images/header-bg.jpg') no-repeat center top; */
   /* background-size: cover; */
   border-bottom: 2px solid #f7941d;
+  background-color: #000000;
 }
 
 #site-slogan {
     background: rgba(255,255,255,0.4);
+    background-image: url('../images/header-bg.jpg') no-repeat center top;
     color: #000000;
     text-align: center;
     font-family: 'Roboto';
@@ -514,7 +516,7 @@ footer .container,
   #navbar .container div.navbar-header {
     float: none;
     width: 134px;
-    margin: 20px auto 10px;
+    margin: 20px 10px;
     position: relative;
     z-index: 100;
   }
@@ -571,15 +573,6 @@ footer .container,
 
   }
 
-  li#menu-news {
-    margin-right: 144px;
-  }
-
-  li#menu-news a {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-
   li#menu-home {
 
   }
@@ -595,6 +588,15 @@ footer .container,
 
   li#menu-media a {
 
+  }
+
+  li#menu-contacts {
+
+  }
+
+  li#menu-contacts a {
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   li#menu-about {
@@ -709,7 +711,7 @@ footer .container,
   ul.menu.navbar-nav {
     position: absolute;
     top: 30px;
-    left: 127px;
+    left: 175px;
   }
 
   ul.menu.navbar-nav li {
@@ -728,15 +730,6 @@ footer .container,
 
   }
 
-  li#menu-news {
-
-  }
-
-  li#menu-news a {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-
   li#menu-home {
 
   }
@@ -752,6 +745,15 @@ footer .container,
 
   li#menu-media a {
 
+  }
+
+  li#menu-contacts {
+
+  }
+
+  li#menu-contacts a {
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   li#menu-about {
@@ -856,15 +858,6 @@ footer .container,
 
   }
 
-  li#menu-news {
-
-  }
-
-  li#menu-news a {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-
   li#menu-home {
 
   }
@@ -880,6 +873,15 @@ footer .container,
 
   li#menu-media a {
 
+  }
+
+  li#menu-contacts {
+
+  }
+
+  li#menu-contacts a {
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   li#menu-about {
